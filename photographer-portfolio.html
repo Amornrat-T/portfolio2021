@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Portfolio</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <style>
+        .content1{
+            padding: 0px 10%;
+            margin-bottom: 60px;
+        }
+        
+        .content1 .img1{
+            width: 90%;
+            margin-bottom: 40px;
+        }
+        .detail1 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .content2 {
+            display: flex;
+            padding: 0px 10%;
+            margin-bottom: 100px;
+        }
+
+        .content2 .img2{
+            width: 60%;
+            text-align: center;
+        }
+
+        .content2 .img2 img {
+            width: 60%;
+            
+        }
+
+        .content2 .detail2{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .content2 .detail2 div {
+            margin-bottom: 30px;
+        }
+
+        .content3 {
+            display: flex;
+            padding: 0px 10%;
+            margin-bottom: 100px;
+        }
+
+        .content3 .img3{
+            width: 70%;
+            filter: grayscale(1);
+        }
+
+        .content3 .detail3{
+            width: 30%;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .content4 {
+            display: flex;
+            padding: 0px 10%;
+            margin-bottom: 100px;
+        }
+
+        .content4 .img4{
+            width: 70%;
+        }
+
+        .content4 .detail4{
+            width: 30%;
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .content5 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 10%;
+            margin-bottom: 100px;
+        }
+
+        .content5 .img5{
+            width: 70%;
+        }
+
+        .content5 .detail5{
+            width: 30%;
+        }
+
+        .content6 {
+            display: flex;
+            flex-direction: column;
+            padding: 0px 10%;
+            
+        }
+
+        .content6 .detail6{
+            width: 40%;
+        }
+
+        /* tablet view */
+        @media screen and (max-width:768px) {
+            .content1, .content2, .content3, .content4, .content5 {
+                padding: 0px 5%;
+            }
+        }
+
+
+        /* mobile view */
+        @media screen and (max-width:425px) {
+            .content1, .content2, .content3, .content4, .content5 {
+                margin-bottom: 60px;
+            }
+            .content1 .img1 {
+                width: 100%;
+                
+            }
+            .detail1 {
+                flex-direction: column;
+            }
+            .content2, .content4, .content5 {
+                flex-direction: column;
+            }
+            .content2 .img2 {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .content2 .img2 img {
+                width: 80%;
+            }
+            .content2 .detail2 {
+                width: 100%;
+            }
+
+            .content3 {
+                flex-direction: column-reverse;
+            }
+
+            .content3 .img3 {
+                width: 100%;
+            }
+
+            .content3 .detail3 {
+                margin-top: 20px;
+                width: 100%;
+                align-items: flex-end;
+            }
+
+            .content4 .img4 {
+                width: 100%;
+            }
+
+            .content4 .detail4 {
+                width: 100%;
+                margin-left: 0px;
+            }
+
+            .content5 .img5 {
+                width: 100%;
+                margin: 20px 0px;
+            }
+
+            .content5 .detail5 {
+                width: 100%;
+            }
+
+            .content6 .detail6 {
+                width: 100%;
+                margin-top: 30px;
+
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+<!-- ​ backgorund -->
+    <div class="container">
+        
+        <div class="bg">
+            <section >
+                <div class="header">
+                    <div class="text">
+                        <p>Amornrat Thankrathok</p>
+                        <p>Photographer Portfolio</p>
+                        <p><a href="https://www.dustinsmith.io/">www.dustinsmith.io</a></p>
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/amornat-t-6419161a0/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.behance.net/amornrathankra"><i class="fab fa-behance"></i></a></li>
+                            <li><a href="https://github.com/Amornrat-T"><i class="fab fa-github"></i></a></li>
+                            <li><a href="mailto:amornrat.than39@gmail.com?subject = Subject&body = Message" target="_blank"><i class="fas fa-envelope"></i></a></li>                
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li class="active"><a href="index.html">Work</a></li>
+                        <!-- <li><a href="navbar.html">Project</a></li> -->
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div class="content1">
+                    <div class="img1">
+                        <img src="dustinweb/Group 10.png" alt="">
+                    </div>
+                    <div class="detail1">
+                        <div style="margin-bottom: 20px;">
+                            <h5>Brief</h5>
+                            <p>He wanted this website to be an online photo gallery website. What he wants is to have a website that is easy to use and informative, complete and stylish. This website is created using wix.com to provide the functionality of the customer. In the event that the customer wants to add or remove content on the website.</p>
+                        </div>
+                        <div>
+                            <h5>Website owner</h5>
+                            <p>Dustin Smith. He is American who live and work in Thailand. He work in data analytics but find joy going out in taking photos.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="background-color: white;">
+                <div class="content2">
+                    <div class="img2">
+                        <img src="dustinweb/Screen Shot 2564-04-27 at 13.57.34.png" alt="">
+                    </div>
+                    <div class="detail2">
+                        <div>
+                            <h5>Client Research</h5>
+                            <p>Send questionnaires to customers to analyze customer needs and request a reference website from customers to be adapted to the website design.</p>
+                        </div>
+                        <div>
+                            <h5>Site map and wireframe</h5>
+                            <p>Bring customer brief to design your website and other elements. And plan the format of the website and create a sitemap and wireframe to offer customers to bring feedback to improve.</p>
+                        </div>
+                        <div>
+                            <h5>Prototype</h5>
+                            <p>Create a website prototype on the XD program so that customers can try it out and adjust it to the customer’s needs before building it.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="background-color: white;">
+                <div class="content3">
+                    
+                    <div class="detail3">
+                        <div>
+                            <h5>Site map</h5>
+                            <p>Create layouts and pages on the website to cover all content. There are 3 main pages and 4 secondary pages where users can access various galleries from the home page.</p>
+                        </div>
+                    </div>
+                    <div class="img3">
+                        <img src="dustinweb/Asset 1.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section style="background-color: white;">
+                <div class="content4">
+                    <div class="img4">
+                        <img src="dustinweb/Group 11.png" alt="">
+                    </div>
+                    
+                    <div class="detail4">
+                        <div>
+                            <h5>Style guide</h5>
+                            <p>The main color of this website is black and white. In order to get the most attention and focus on the image on the website, the layout is simple, except for the first page with a new layout. To make users more eye-catching and easy to remember the website by placing images in a zigzag pattern to guide the user to scroll down to reach the last part of the page.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section style="background-color: white;">
+                <div class="content5">
+                                       
+                    <div class="detail5">
+                        <div>
+                            <h5>Problem</h5>
+                            <p>After the website is up and running, we periodically monitor the access and usage of our website visitors and discover gallery access issues from the homepage. When the user scrolls down to see the image on the homepage and tries to access the other images in that category but is unable to access it and leaves the website faster than expected.</p>
+                        </div>
+                    </div>
+                    <div class="img5">
+                        <img src="dustinweb/Group 12.png" alt="">
+                    </div>
+                    <div class="detail5">
+                        <div>
+                            <h5>Solving</h5>
+                            <p>I was aware of all the information and analyzed the problem that the button to access another gallery was not clear enough. So I have to increase access. When users want to view images in that category, they can click on it immediately. After the problem is solved, the traffic of the site is increasing and the amount of time it takes for the user to visit the site is longer.</p>
+                        </div>
+                    </div>
+                                           
+                </div>
+            </section>
+
+            <section style="min-height: 500px;">
+                <div class="content6">
+                                       
+                    <div class="detail6">
+                        <div>
+                            <h5>Give advice to customers</h5>
+                            <p>Bring experience and knowledge to guide customers in designing and formatting the website for the best results.</p>
+                        </div>
+                    </div>
+                    <div class="detail6" style="align-self: center;">
+                        <div>
+                            <h5>Monitor the work of the website</h5>
+                            <p>After the website has been activated. The work of the website must be tracked periodically in order to study the behavior of visitors to the website and improve it.</p>
+                        </div>
+                    </div>
+                    <div class="detail6" style="align-self: flex-end;">
+                        <div>
+                            <h5>Analysis and problem solving</h5>
+                            <p>Due to the tracking of user behavior of website visitors, it will discover problems in using. So I had to analyze the problem and fix it promptly, and I need to follow up after it has been resolved.</p>
+                        </div>
+                    </div>
+                                           
+                </div>
+            </section>
+
+        </div>
+    </div>
+    
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="mainscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <style>
+        .open {
+            background-color: thistle;
+            position: fixed;
+            top: 50px;
+            right: 50px;
+            /* z-index: 99; */
+            font-size: 2rem;
+            padding: 10px 20px;
+        }
+
+        .close {
+            background-color: thistle;
+            position: fixed;
+            top: 50px;
+            right: 50px;
+            z-index: 99;
+            font-size: 2rem;
+            padding: 10px 20px;
+        }
+
+        .menubox {
+            /* display: none; */
+            background-color: black;
+            min-height: 100vh;
+            width: 100%;
+            position: relative;
+        }
+
+        .mainmenu{
+            /* background-color: violet; */
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
+
+        .workbtn {
+            color: white;
+            padding-right: 100px;
+            font-size: 3em;
+            transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+        }
+
+        .workbtn:hover {
+            color: #b2a4d0;
+            transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+        }
+
+        .workbtn:active {
+            color: #b2a4d0;
+        }
+
+        .work {
+            position: relative;
+            display: inline-block;
+        }
+        .workcontent{
+            /* background-color: tomato; */
+            display: none;
+            position: absolute;
+            z-index: 1;
+            line-height: 1.5;
+            font-size: 1.5rem;
+            min-width: 450px;
+            transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+        }
+
+        .workcontent a:hover {
+            color: #b2a4d0;
+            transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+        }
+
+        .workcontent a:active {
+            color: #b2a4d0;
+            
+        }
+
+
+        .workcontent a, p {
+            color: white;
+            padding-top: 20px;
+            display: block;
+        }
+
+        .work:hover  .workcontent {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="open"><i class="fas fa-plus"></i></div>
+    <div class="menubox">
+        <ul class="mainmenu">
+            <li class="work">
+                <a href="" class="workbtn">Work</a>
+                <ul class="workcontent">
+                    <li><a href="">Artwork</a></li>
+                    <li><a href="">Dustin Photographer</a></li>
+                    <li><a href="">Athenik Website</a></li>
+                    <li><a href="">Athenik Platform</a></li>
+                </ul>
+            </li>
+            <li class="work" >
+                <a href="" class="workbtn">Project</a>
+                <ul class="workcontent">
+                    <li><a href="">E-commerce Website</a></li>
+                    <li><a href="">Booking Website</a></li>
+                    <li><a href="">Mobile Application</a></li>
+                </ul>
+            </li>
+            <li class="work">
+                <a href="" class="workbtn" >About</a>
+                <ul class="workcontent">
+                    <li>
+                        <p>Hi! I'm Aom. I am a Content Creator, Designer, and newly self taught web developer, but I have worked the past year in digital content creation including inforgraphics, YouTube videos, Instagram, and social media. I am interested in developing my skills by learning new technologies and to continue my learning in web development.</p>
+                    </li>
+                </ul>
+            </li>       
+        </ul>
+        <div class="close"><i class="fas fa-times"></i></div>
+    </div>
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="mainscript.js"></script>
+</body>
+</html>

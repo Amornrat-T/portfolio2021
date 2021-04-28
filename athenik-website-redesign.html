@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athenik Website Redesign</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <style>
+        .content1{
+            padding: 0px 10%;
+            margin-bottom: 60px;
+        }
+        
+        .content1 .img1{
+            margin-bottom: 40px;
+        }
+        .detail1 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .content2 {
+            width: 50%;
+            margin-bottom: 100px;
+        }
+
+        .content2 .img2{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .content2 .img2 img {
+            width: 100%;
+            
+        }
+
+        .content2 .detail2{
+            margin: 0px 10%;
+            justify-content: center;
+        }
+
+        .content2 .detail2 div {
+            margin-bottom: 30px;
+        }
+
+        .content3 {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0px 10%;
+            margin-bottom: 100px;
+        }
+
+        .content3 .img3{
+            width: 50%;
+        }
+
+        .content3 .detail3{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .content3 .detail3 div {
+            width: 70%;
+            margin-top: 10%;
+        }
+
+        .content4 {
+            display: flex;
+            padding: 0px 10%;
+        }
+
+        .content4 .img4{
+            width: 70%;
+            filter: grayscale(1);
+        }
+
+        .content4 .detail4{
+            width: 30%;
+            margin-left: 20px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .content5 {
+            display: flex;
+            padding: 0px 10%;
+
+        }
+
+        .content5 .img5{
+            width: 50%;
+        }
+
+        .content5 .detail5{
+            width: 50%;
+            display: flex;
+        }
+
+        .content5 .detail5 div {
+            margin-top: 10%;
+            width: 70%;
+            
+        }
+
+        .content6 {
+            display: flex;
+            flex-direction: column;
+            padding: 0px 10%;
+            min-height: 800px;
+            justify-content: center;
+            
+        }
+
+        .content6 .detail6{
+            width: 40%;
+        }
+
+        /* tablet view */
+        @media screen and (max-width:768px) {
+            .content1, .content2, .content3, .content4, .content5 {
+                padding: 0px 5%;
+            }
+        }
+
+
+        /* mobile view */
+        @media screen and (max-width:425px) {
+            .content1, .content2, .content3, .content4, .content5 {
+                margin-bottom: 60px;
+            }
+            .content1 .img1 {
+                width: 100%;
+                
+            }
+            .detail1 {
+                flex-direction: column;
+            }
+            .content2, .content4, .content5 {
+                flex-direction: column;
+            }
+
+            .content2 {
+                width: 100%;
+                padding: 0px;
+                margin-bottom: 20px;
+            }
+
+            .content2 .img2 {
+               
+            }
+            .content2 .img2 img {
+         
+            }
+            .content2 .detail2 {
+               margin: 0px 5%;
+            }
+
+            .content3 {
+                flex-direction: column-reverse;
+                margin-bottom: 20px;
+            }
+
+            .content3 .img3 {
+                width: 100%;
+            }
+
+            .content3 .detail3 {
+                margin-top: 20px;
+                width: 100%;
+            }
+
+            .content3 .detail3 div {
+                width: 100%;
+                margin: 5%;
+            }
+
+            .content4 {
+                margin-bottom: 20px;
+            }
+
+            .content4 .img4 {
+                width: 100%;
+            }
+
+            .content4 .detail4 {
+                width: 100%;
+                margin-left: 0px;
+                margin-top: 5%;
+            }
+
+            .content5 .img5 {
+                width: 100%;
+                margin: 20px 0px;
+            }
+
+            .content5 .detail5 {
+                width: 100%;
+            }
+
+            .content5 .detail5 div {
+                margin-top: 0;
+                width: 100%;
+            }
+
+            .content6 .detail6 {
+                width: 100%;
+                margin-top: 30px;
+
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+<!-- ​ backgorund -->
+    <div class="container">
+        
+        <div class="bg">
+            <section >
+                <div class="header">
+                    <div class="text">
+                        <p>Amornrat Thankrathok</p>
+                        <p>Athenik Website Redesign</p>
+                        <p><a href="https://www.athenik.com/">www.athenik.com</a></p>
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/amornat-t-6419161a0/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.behance.net/amornrathankra"><i class="fab fa-behance"></i></a></li>
+                            <li><a href="https://github.com/Amornrat-T"><i class="fab fa-github"></i></a></li>
+                            <li><a href="mailto:amornrat.than39@gmail.com?subject = Subject&body = Message" target="_blank"><i class="fas fa-envelope"></i></a></li>                
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li class="active"><a href="index.html">Work</a></li>
+                        <!-- <li><a href="navbar.html">Project</a></li> -->
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div class="content1">
+                    <div class="img1">
+                        <img src="athenikweb/landing.png" alt="">
+                    </div>
+                    <div class="detail1">
+                        <div style="width:90%; margin-bottom: 20px; padding-right: 20px;">
+                            <h5>Brief</h5>
+                            <p>The company would like to keep the website usable, reliable and functional. Aesthetically minimal, simple and clean. No ads, no tricks, and a consistent and intuitive user experience providing value to our users, keeping them satisfied and engaged.</p>
+                        </div>
+                        <div>
+                            <h5>Role</h5>
+                            <p>Responsible for redesign, discovery and ideation, interaction design and prototype</p>
+                            <h5 style="margin-top: 20px;">Team</h5>
+                            <p>Jason Ho / CTO</p>
+                            <p>Ekanat Limkunatham / Founding Member</p>
+                            <p>Hannah Boshari / Founding Member</p>
+                            <p>Aaron Booth / Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="background-color: white; align-items: flex-start;">
+                <div class="content2">
+                    <div class="img2">
+                        <img src="athenikweb/old-ver.png" alt="">
+                    </div>
+                    <div class="detail2">
+                        <div>
+                            <p>The information on the home page is not complete. Users have to switch to another page. It makes us lose the opportunity to take the user to the goal.</p>
+                        </div>
+                        <div>
+                            <p>Lack of the identity of the website.</p>
+                        </div>
+                        <div>
+                            <p>The sitemap is too complex, making it less user-friendly.</p>
+                        </div>
+                        <div>
+                            <p>Users do not know how this website works. The user was not impressed the first time they saw it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="img2">
+                        <img src="athenikweb/new-ver.png" alt="">
+                    </div>
+                    <div class="detail2">
+                        <div>
+                            <p>Add complete information on one page and add a navigation ( buttona and search bar )to make it easy for users to reach the goals.</p>
+                        </div>
+                        <div>
+                            <p>Increase the brand identity by adding color theme, fonts and styles guide.</p>
+                        </div>
+                        <div>
+                            <p>Planning a new sitemap to make it easier for users to reach all content.</p>
+                        </div>
+                        <div>
+                            <p>Add graphics and artwork on the website that users see and able to understand the content of this website.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="background-color: white;">
+                <div class="content3">
+                    <div class="img3">
+                        <img src="athenikweb/benefit-section.png" alt="">
+                    </div>
+                    <div class="img3">
+                        <img src="athenikweb/option-section.png" alt="">
+                    </div>
+                    
+                    <div class="detail3">
+                        <div>
+                            <h5>User Research</h5>
+                            <p>My team analyzed our target group and found that most of the users are age group 18 and over who are interested in studying abroad for a bachelor's degree to a doctorate degree.</p>
+                        </div>
+                        <div>
+                            <h5>User workflow and Sitemap</h5>
+                            <p>I plan the work of users since searching for courses to applying to universities and colleges by rearranging sitemap to make it easy to navigate.</p>
+                        </div>
+                        <div>
+                            <h5>Wireframe</h5>
+                            <p>Bring the designed wireframe and talk to the working team. To find conclusions, problems and fix them.</p>
+                        </div>
+                        <div>
+                            <h5>Prototype</h5>
+                            <p>Make a prototype from a modified wireframe and present it to CTO when approved, then develop it into a website.</p>
+                        </div>
+                    </div>
+
+                    <div class="img3">
+                        <img src="athenikweb/process-section.png" alt="">
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section style="background-color: white;">
+                <div class="content4">
+                    <div class="img4">
+                        <img src="athenikweb/site-map.png" alt="">
+                    </div>
+                    
+                    <div class="detail4">
+                        <div>
+                            <h5>Site map</h5>
+                            <p>When our team provides information on various content that should be put on the website. I started planning the sitemap. I was primarily concerned about the convenience of the user, So try to design it be as simple as possible. I started with the first page and put the important part that can links to other pages in the navigator bar.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section style="background-color: white;">
+                <div class="content5">
+
+                    <div class="detail5">                      
+                        <div>
+                            <h5>Style Guide</h5>
+                            <p>I set the color scheme and font style to control the theme of the website. I need the style of the site to be the same for all current and future pages. Our style guide hence brings together styles that are accessible to all customers. So the blue color represents our target groups, agents or university, and the green color represents student groups. As for the typefaces, we chose to use them because it is not too formal and not too fun.</p>
+                        </div>
+                    </div>
+
+                    <div class="img5">
+                        <img src="athenikweb/color-theme.png" alt="">
+                        <img src="athenikweb/font-style.png" alt="" style="width: 50%;">
+                    </div>  
+                                          
+                </div>
+            </section>
+
+            <section>
+                <div class="content6">
+                                       
+                    <div class="detail6">
+                        <div>
+                            <h5>Don't stuff too much information!</h5>
+                            <p>In the preparation sitemap stage. We thought that for the convenience of the users, we would like to put all the details on one page, so the users don't have to go to another page to reach information. It turns out too much information, so we realized that adding a new page is nice as well.</p>
+                        </div>
+                    </div>
+                    <div class="detail6" style="align-self: center;">
+                        <div>
+                            <h5>Each people has their own perspective!</h5>
+                            <p>The design is beautiful or not depending on who sees it. Often during my work, my colleagues and I have conflicting opinions on the design of the website. I will probably have to edit my work multiple times to get the best out of it. But I also understand that sometimes my point of view is not always accurate.</p>
+                        </div>
+                    </div>
+                    <div class="detail6" style="align-self: flex-end;">
+                        <div>
+                            <h5>Balancing is important!</h5>
+                            <p>Balancing the website is a necessary thing that we should concern about. I have to balance the graphics and content in the best balance possible. I focus on the distance between the content, the empty space in that section. If all contents are too close to make the website seem overgrown.</p>
+                        </div>
+                    </div>
+                                           
+                </div>
+            </section>
+
+        </div>
+    </div>
+    
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="mainscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artwork</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <style>
+        .gallery {
+            position: relative;
+            column-count: 3;
+            padding-top: 20px;
+            background-color: white;
+        }
+
+        .artwork {
+            display: inline-block;
+            margin-bottom: 40px;
+            overflow: hidden;
+        }
+
+        .artwork a img {
+            width: 100%;
+            transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);          
+        }
+
+        .artwork a:hover img {
+            transform: scale(0.95);
+            transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+        }
+
+        .artwork p {
+            margin-top: 10px;
+            color: gray;
+        }
+
+
+        @media screen and (max-width:768px) {
+            .gallery {
+                column-count: 2;
+            }
+        }
+
+        @media screen and (max-width:425px) {
+            .gallery {
+                column-count: 1;
+            }
+            h1 {
+                font-size: 15px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<!-- ​ backgorund -->
+    <div class="container">
+        <div class="bg">
+            <section>
+                <div class="header">
+                    <div class="text">
+                        <p>Amornrat Thankrathok</p>
+                        <p>Website and Graphics Designer</p>
+                        <p>Living in Bangkok, Thailand</p>
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/amornat-t-6419161a0/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.behance.net/amornrathankra"><i class="fab fa-behance"></i></a></li>
+                            <li><a href="https://github.com/Amornrat-T"><i class="fab fa-github"></i></a></li>
+                            <li><a href="mailto:amornrat.than39@gmail.com?subject = Subject&body = Message" target="_blank"><i class="fas fa-envelope"></i></a></li>                
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li class="active"><a href="index.html">Work</a></li>
+                        <!-- <li><a href="navbar.html">Project</a></li> -->
+                    </ul>
+                </div>
+            </section>
+        
+        <div class="gallery">
+            <div class="artwork">
+                <a href="artwork-promotion-banner.html"><img src="artwork/promotion/LEATHER-fb.png" alt=""> </a>
+                <p>Promotion Banner (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-home-page-banner.html"><img src="artwork/homepage/Artboard 1.png" alt=""> </a>
+                <p>Homepage Banner (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-MJ-event.html"><img src="artwork/event/key-visual-powermall.jpg" alt=""> </a>
+                <p>Marhen.J Thailand Official Launching Showcase (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-product-on-magazine.html"><img src="artwork/on magazine/tatler-FB.png" alt=""> </a>
+                <p>Marhen.J On Tatler Magazine (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-package-mock-up.html"><img src="artwork/mockup/LOLLY_box_mockup.png" alt=""> </a>
+                <p>Package Mock Up (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-marhenj-icon.html"><img src="artwork/icon/IMG_2117.jpg" alt=""> </a>
+                <p>Icon On Marhen.J Website (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-product-lena.html"><img src="artwork/lena/lena-IG.png" alt=""> </a>
+                <p>Product Artwork (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-product-amber.html"><img src="artwork/amber/Asset 1.png" alt=""> </a>
+                <p>Product Artwork (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-product-megan.html"><img src="artwork/megan/megan-ig.png" alt=""> </a>
+                <p>Product Artwork (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-product-lolly.html"><img src="artwork/lolly/lolly-02.png" alt=""> </a>
+                <p>Product Artwork (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-product-rico.html"><img src="artwork/rico/rico-com-red.png" alt=""> </a>
+                <p>Product Artwork (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-instagram-post.html"><img src="artwork/socialmedia/Oh My Girl Jiho-02.png" alt=""> </a>
+                <p>Post On Social Media (2021)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-athenik-website-graphic.html"><img src="artwork/athenikweb/4 steps/info_4step_discovery.png" alt=""> </a>
+                <p>Graphics On Athenik Website (2020)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-athenik-icon.html"><img src="artwork/athenikicon/IMG_2118.jpg" alt=""> </a>
+                <p>Icon On Athenik Website (2020)</p>
+            </div>
+            <div class="artwork">
+                <a href="artwork-athenik-infographics.html"><img src="artwork/athenikinfo/howtosurvive..blog_FB_2@300x-100.jpg" alt=""> </a>
+                <p>Infographics For Athenik (2020)</p>
+            </div>
+        </div>
+ 
+        </div>
+    </div>
+    
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="mainscript.js"></script>
+</body>
+</html>
